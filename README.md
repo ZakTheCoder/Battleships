@@ -41,4 +41,5 @@ Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu 
  Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.\n"
     
    **Viel Spaß wünschen Dir**
+   
    *Zakaria, Merve und Sam*
