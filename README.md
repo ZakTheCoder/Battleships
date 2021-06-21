@@ -12,7 +12,7 @@ Ein Projekt von Zakaria, Merve und Sam.
 
 Die weiteren importierten Plug-Ins sollten in Python bereits installiert sein.
 
-# Was ist Schiffe Versenken udn wie wird es gespielt?
+# Was ist Schiffe Versenken und wie wird es gespielt?
 Schiffe Versenken ist ursprünglich ein harmloses Symbolspiel ,wessen Herkunft mindestens bis zum Ende des 19. Jahrhundert zurückreicht und seine Grundstruktur bis heute unverändert erhalten ist.Diese Grundstruktur haben wir in der Programmiersprache Python übertragen.
 Vor Beginn des Spiels sucht sich der Spielre einen Ort auf dem 10x10 großen Feld aus, an dem seine Schiffe stehen sollen
 Dies geschieht in dem man die Koordinaten des Ortes nacheinander eintippt und bestätigt. (A1,A2,A3 etc.)
