@@ -4,11 +4,11 @@ Ein Projekt von Zakaria, Merve und Sam.
 
 # Bitte folgende Plug-Ins installieren:
 
-Für „os“: pip install os
+    Für „os“: pip install os
 
-Für „cfonts“: pip install python-cfonts
+    Für „cfonts“: pip install python-cfonts
 
-Für „colorama“: pip install colorama 
+    Für „colorama“: pip install colorama 
 
 Die weiteren importierten Plug-Ins sollten in Python bereits installiert sein.
 
@@ -21,9 +21,9 @@ erscheint noch ein letztes Mal das Spielfeld mit den Schiffen des Spielers.\n")
 
 Das Spiel beginnt.Es wird auf Koordinaten gefeuert auf den der Spieler ein feindliches Schiff vermutet.
       
-      "Trifft der Spieler, erscheint ein „o“
-      "Versenkt der Spieler ein Schiff, erscheint ein „0“
-      "Trifft der Spieler nichts, erscheint ein „x“ 
+  "Trifft der Spieler, erscheint ein „o“
+  "Versenkt der Spieler ein Schiff, erscheint ein „0“
+  "Trifft der Spieler nichts, erscheint ein „x“ 
 
 Es wird so lange hin und her gefeuert, bis ein Spieler keine Schiffe mehr hat. Dieser Spieler ist dann der Verlierer.
 Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu helfen und Tipps zu geben.\n"
@@ -40,5 +40,5 @@ Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu 
 # Ziel des Spiels:
  Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.\n"
     
-      Viel Spaß wünschen Dir
-      Zakaria, Merve und Sam
+   **Viel Spaß wünschen Dir**
+   *Zakaria, Merve und Sam*
