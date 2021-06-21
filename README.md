@@ -3,9 +3,13 @@
 Ein Projekt von Zakaria, Merve und Sam.
 
 # Bitte folgende Plug-Ins installieren:
+
 Für „os“: pip install os
+
 Für „cfonts“: pip install python-cfonts
+
 Für „colorama“: pip install colorama 
+
 Die weiteren importierten Plug-Ins sollten in Python bereits installiert sein.
 
 # Was ist Schiffe Versenken udn wie wird es gespielt?
