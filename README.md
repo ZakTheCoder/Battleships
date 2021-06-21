@@ -17,7 +17,7 @@ Schiffe Versenken ist ursprünglich ein harmloses Symbolspiel ,wessen Herkunft m
 Vor Beginn des Spiels sucht sich der Spielre einen Ort auf dem 10x10 großen Feld aus, an dem seine Schiffe stehen sollen
 Dies geschieht in dem man die Koordinaten des Ortes nacheinander eintippt und bestätigt. (A1,A2,A3 etc.)
 Es wird immer angezeigt, um welches Schiff es im Moment geht. Sind alle Schiffe platziert,
-erscheint noch ein letztes Mal das Spielfeld mit den Schiffen des Spielers.\n")
+erscheint noch ein letztes Mal das Spielfeld mit den Schiffen des Spielers.
 
 Das Spiel beginnt.Es wird auf Koordinaten gefeuert auf den der Spieler ein feindliches Schiff vermutet.
       
@@ -31,14 +31,14 @@ Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu 
       "Ist das Spiel vorbei, verschwindet das Spielfeld und der Gewinner wird eingeblendet.\n"
       "Als Zusatzfunktion wird angezeigt, in wie viel Runden der Spieler gewonnen hat.\n"
       ""
-      "Folgende Regeln sind zu beachten:\n"
-      "1.    Schiffe dürfen auf dem Rand liegen, jedoch nicht darüber hinaus.\n"
-      "2.    Schiffe können nicht diagonal aufgestellt werden.\n"
-      "3.    Koordinaten können groß als auch klein geschrieben werden, jedoch muss der Buchstabe stets vorne stehen\n"
-      "     und in der Koordinate darf höchstens ein Buchstabe und eine Zahl sein.\n")
+      "Folgende Regeln sind zu beachten:
+      "1.    Schiffe dürfen auf dem Rand liegen, jedoch nicht darüber hinaus.
+      "2.    Schiffe können nicht diagonal aufgestellt werden.
+      "3.    Koordinaten können groß als auch klein geschrieben werden, jedoch muss der Buchstabe stets vorne stehen
+      und in der Koordinate darf höchstens ein Buchstabe und eine Zahl sein.
 
 # Ziel des Spiels:
- Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.\n"
+ Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.
     
    **Viel Spaß wünschen Dir**
    
