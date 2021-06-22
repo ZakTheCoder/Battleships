@@ -42,4 +42,4 @@ Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu 
     
    **Viel Spaß wünschen Dir**
    
-   *Zakaria, Merve und Sam*
+   *Zakaria, Merve und Sam* **😊**
