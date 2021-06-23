@@ -2,7 +2,7 @@
 # Schiffe-Versenken
 Ein Projekt von Zakaria, Merve und Sam.
 
-# Bitte folgende Plug-Ins installieren:
+# Bitte folgende Python-Packages installieren:
 
     Für „random2“ : pip install random2
    
