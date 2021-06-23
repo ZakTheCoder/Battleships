@@ -32,7 +32,7 @@ def mainMenu() :
         info = (f"{Fore.GREEN}Anleitung")
         ext = (f"{Fore.MAGENTA}Exit")
 
-        print("^^ Ein Spiel von Zakaria, Merve & Sam ^^")
+        print("Ein Spiel von Zakaria, Merve & Sam ^^")
         print("\n1. " + pvp)
         print("2. " + pve)
         print("3. " + info)
