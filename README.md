@@ -1,5 +1,5 @@
 
-# Schiffe-Versenken
+# Schiffe-Versenken 🚢
 Ein Projekt von Zakaria, Merve und Sam.
 
 # Bitte folgende Python-Packages installieren:
