@@ -286,7 +286,7 @@ def finale(check):
                                 schuss_VonSpieler1 = abc + xyz
 
                                 if schuss_VonSpieler1 not in zuvorGeschosseneSchuesse_Spieler1:
-                                    # print(shot)
+                                    # print(Schuss)
                                     print("FEUERFREI!!!\n")
                                     ok = "y"
                                     break
@@ -361,7 +361,7 @@ def finale(check):
 
                                 print(x, " ", row1)
                             schiff_Spieler2 = []
-                            # ask the user to enter numbers
+                            # Bittet den Spieler eine Länge einzugeben
                             print("Standpunkt von Schiff mit Länge ", long)
                             for i in range(long):
                                 boat_num = input("Bitte Koordinate eingeben, wo sich dein Schiff befinden soll:")
@@ -523,7 +523,7 @@ def finale(check):
                                 schuss_VonSpieler2 = abc + xyz
 
                                 if schuss_VonSpieler2 not in zuvorGeschosseneSchuesse_Spieler2:
-                                    # print(shot)
+                                    # print(Schuss)
                                     print("FEUERFREI!!!\n")
                                     ok = "y"
                                     break
@@ -618,7 +618,7 @@ def finale(check):
 
                         break
 
-                    # guesses Spieler2
+                    # ratet Spieler 2
                     zuvorGeschosseneSchuesse_Spieler2 = hit_AufSpieler1 + miss_AufSpieler1 + complete_AufSpieler1
                     # shot Spieler 2
                     schuss_VonSpieler2 = schuss_VonSpieler2_AufSpieler1(zuvorGeschosseneSchuesse_Spieler2)
@@ -630,7 +630,7 @@ def finale(check):
                     # repeat until ships empty Spieler2
                     if check_if_empty_Spieler(schiffe_Spieler1):
                         # print("end of game - winner in", i)
-                        clear = lambda: os.system('cls')  # killt die ueberschrift
+                        clear = lambda: os.system('cls')  #Lässt die Überschrift verschwinden
                         clear()
                         time.sleep(2)
                         fourh = render('Spieler 2', font='block', colors=['red', 'white'],
@@ -640,7 +640,7 @@ def finale(check):
                         print(third)
                         print("                 IN", i, "ZÜGEN GEWONNEN")
                         time.sleep(9)
-                        # clear = lambda: os.system('cls')  # killt die ueberschrift
+                        # clear = lambda: os.system('cls')  # Lässt die Überschrift verschwinden
                         clear()
                         break
                 print("fertig")
@@ -701,7 +701,7 @@ def finale(check):
 
                                 print(x, " ", row1)
                             schiff = []
-                            # ask the user to enter numbers
+                            # Bittet den Spieler eine Länge einzugeben
                             print("Standpunkt von Schiff mit Länge ", long)
                             for i in range(long):
                                 boat_num = input("Bitte Koordinate eingeben, wo sich dein Schiff befinden soll:")
@@ -742,7 +742,7 @@ def finale(check):
                                     boat_num = abc + xyz
 
                                 schiff.append(int(boat_num))
-                                # check that ship
+                                # Prüft das Schiff
                             schiff = pruefung_auf_fehler(schiff, bereits_ausgewaehlt)
                             if schiff[0] != -1:
                                 bereits_ausgewaehlt = bereits_ausgewaehlt + schiff
@@ -994,7 +994,7 @@ def finale(check):
                                 schuss = abc + xyz
 
                                 if schuss not in zuvorGeschosseneSchuesse:
-                                    # print(shot)
+                                    # print(schuss)
                                     print("FEUERFREI!!!\n")
                                     ok = "y"
                                     break
