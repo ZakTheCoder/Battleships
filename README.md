@@ -10,7 +10,7 @@ Ein Projekt von Zakaria, Merve und Sam.
 
     Für „cfonts“: pip install python-cfonts
     
-    Falls es zu Problem geben sollte, dann bitte auch Colorama installieren
+    Falls es zu Problemen kommen sollte, dann bitte auch Colorama installieren
     Für „colorama“: pip install colorama 
 
 Die weiteren importierten Plug-Ins sollten in Python bereits installiert sein.
