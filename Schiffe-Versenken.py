@@ -13,7 +13,7 @@ colorama.init(autoreset=True)
 # Hierbei wurden Schrifft und Schrifftfarbe angepasst.
 
 output = render('Battleships',font='block',colors=['red','red'], align='center')
-second = render('a game by zak,merve,sam', font='block',colors=['blue','white'], align='center')
+second = render('a game by zak', font='block',colors=['blue','white'], align='center')
 print(output)
 print(second)
 
@@ -32,7 +32,7 @@ def mainMenu() :
         info = (f"{Fore.GREEN}Anleitung")
         ext = (f"{Fore.MAGENTA}Exit")
 
-        print("Ein Spiel von Zakaria, Merve & Sam ^^")
+        print("A Game by  zak^^")
         print("\n1. " + pvp)
         print("2. " + pve)
         print("3. " + info)
@@ -1132,8 +1132,8 @@ def finale(check):
                           "\n"
                           "Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.\n"
                           "\n"
-                          "Viel Spaß wünschen Dir\n"
-                          "Merve, Zak und Sam\n")
+                          "Viel Spaß wünscht Dir\n"
+                          " Zak \n")
                     bs = "n"
 
                 elif bestaetigung == "n":
