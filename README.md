@@ -1,5 +1,5 @@
 
-# Ships sinking 🚢
+# Sink Ships🚢
 # Please install the following Python packages:
 
     For "random2": pip install random2
