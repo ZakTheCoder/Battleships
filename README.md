@@ -1,45 +1,28 @@
 
-# Schiffe-Versenken 🚢
+# Ships sinking 🚢
+Cancel changes
+# Please install the following Python packages:
 
-# Bitte folgende Python-Packages installieren:
-
-    Für „random2“ : pip install random2
+    For "random2": pip install random2
    
-    Für „os“: pip install os
+    For "os": pip install os
 
-    Für „cfonts“: pip install python-cfonts
+    For "cfonts": pip install python-cfonts
     
-    Falls es zu Problemen kommen sollte, dann bitte auch Colorama installieren
-    Für „colorama“: pip install colorama 
+    If there are any problems, please install Colorama as well
+    For "colorama": pip install colorama
 
-Die weiteren importierten Plug-Ins sollten in Python bereits installiert sein.
+The other imported plug-ins should already be installed in Python.
 
-# Was ist Schiffe Versenken und wie wird es gespielt?
-Schiffe Versenken ist ursprünglich ein harmloses Symbolspiel ,wessen Herkunft mindestens bis zum Ende des 19. Jahrhundert zurückreicht und seine Grundstruktur bis heute unverändert erhalten ist.Diese Grundstruktur haben wir in der Programmiersprache Python übertragen.
-Vor Beginn des Spiels sucht sich der Spielre einen Ort auf dem 10x10 großen Feld aus, an dem seine Schiffe stehen sollen
-Dies geschieht in dem man die Koordinaten des Ortes nacheinander eintippt und bestätigt. (A1,A2,A3 etc.)
-Es wird immer angezeigt, um welches Schiff es im Moment geht. Sind alle Schiffe platziert,
-erscheint noch ein letztes Mal das Spielfeld mit den Schiffen des Spielers.
+#Sinking Ships is originally a harmless symbol game, the origin of which goes back at least to the end of the 19th century and its basic structure has remained unchanged to this day. We have transferred this basic structure into the programming language Python. Before the start of the game, the player chooses a place on the 10x10 large field where his ships should be. This is done by entering and confirming the coordinates of the location one after the other. (A1, A2, A3 etc.) It is always shown which ship it is about at the moment. When all ships have been placed, the playing field with the player's ships appears one last time.
 
-Das Spiel beginnt.Es wird auf Koordinaten gefeuert auf den der Spieler ein feindliches Schiff vermutet.
-      
-  "Trifft der Spieler, erscheint ein „o“
-  "Versenkt der Spieler ein Schiff, erscheint ein „0“
-  "Trifft der Spieler nichts, erscheint ein „x“ 
+The game begins. Coordinates are fired at the player who suspects an enemy ship.
 
-Es wird so lange hin und her gefeuert, bis ein Spieler keine Schiffe mehr hat. Dieser Spieler ist dann der Verlierer.
-Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu helfen und Tipps zu geben.\n"
-      "Bei dem Player vs. Computer Modus übernimmt ein Algorithmus den Platz des zweiten Spielers und versucht so taktisch den Spieler zu besiegen.\n"
-      "Ist das Spiel vorbei, verschwindet das Spielfeld und der Gewinner wird eingeblendet.\n"
-      "Als Zusatzfunktion wird angezeigt, in wie viel Runden der Spieler gewonnen hat.\n"
-      ""
-      "Folgende Regeln sind zu beachten:
-      "1.    Schiffe dürfen auf dem Rand liegen, jedoch nicht darüber hinaus.
-      "2.    Schiffe können nicht diagonal aufgestellt werden.
-      "3.    Koordinaten können groß als auch klein geschrieben werden, jedoch muss der Buchstabe stets vorne stehen
-      und in der Koordinate darf höchstens ein Buchstabe und eine Zahl sein.
+"If the player hits, an" o "appears" If the player sinks a ship, a "0" appears "If the player does not hit anything, an" x "appears
 
-# Ziel des Spiels:
- Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.
+It is fired back and forth until a player runs out of ships. That player is then the loser. If there are errors in the entry, the game tries to help with the entry and give tips. \ N "" With the player vs "" When the game is over, the playing field disappears and the winner is displayed. \ N "" As an additional function the number of rounds in which the player has won is displayed. \ n "" "" The following rules must be observed: "1. Ships may lie on the edge, but not beyond it." 2. Ships cannot be set up diagonally. " 3. Coordinates can be written in upper case as well as in lower case, but the letter must always be in front and the coordinate may contain at most one letter and one number.
+
+Object of the game:
+The winner of the game is the player who has completely sunk all enemy ships.
     
   
