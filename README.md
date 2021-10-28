@@ -1,6 +1,5 @@
 
 # Schiffe-Versenken 🚢
-Ein Projekt von Zakaria, Merve und Sam.
 
 # Bitte folgende Python-Packages installieren:
 
@@ -43,6 +42,4 @@ Sollten Fehler bei der Eingabe entstehen, versucht das Spiel bei der Eingabe zu 
 # Ziel des Spiels:
  Der Gewinner des Spiels ist der Spieler der alle gegnerischen Schiffe vollständig versenkt hat.
     
-   **Viel Spaß wünschen Dir**
-   
-   *Zakaria, Merve und Sam* **😊**
+  
