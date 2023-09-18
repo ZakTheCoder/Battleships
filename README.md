@@ -12,6 +12,8 @@
     For "colorama": pip install colorama
 
 The other imported plug-ins should already be installed in Python.
+![image](https://github.com/ZakTheCoder/Battleships/assets/66418262/1427ef74-6548-461f-af17-a3747fb216f1)
+
 
 Batleships is originally a harmless symbol game, the origin of which goes back at least to the end of the 19th century and its basic structure has remained unchanged to this day. We have transferred this basic structure into the programming language Python. Before the start of the game, the player chooses a place on the 10x10 large field where his ships should be. This is done by entering and confirming the coordinates of the location one after the other. (A1, A2, A3 etc.) It is always shown which ship it is about at the moment. When all ships have been placed, the playing field with the player's ships appears one last time.
 
